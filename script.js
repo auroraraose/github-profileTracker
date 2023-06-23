@@ -150,11 +150,11 @@ function lightModeProperties() {
 //INITIALISE UI
 function init() {
   //initialise dark-mode variable to false;
-  //darkMode = true -> dark mode enable karna h 
-  //darMode = false -> light mode enable karna h 
+  //darkMode = true -> dark mode enable  
+  //darMode = false -> light mode enable 
   darkMode = false;
 
-  //HW
+
 // const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
 
   const value = localStorage.getItem("dark-mode");
@@ -173,7 +173,7 @@ function init() {
     lightModeProperties();
   }
 
-  getUserData(url + "naugsss");
+  getUserData(url + "auroraose");
 }
 
 init();
